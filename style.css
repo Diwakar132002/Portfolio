@@ -1,0 +1,556 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+    
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+.container {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  
+}
+
+@keyframes fadeIn {
+    100% { opacity: 1; }
+}
+
+.main {
+    min-height: 100vh; 
+    padding: 50px; 
+    background-color: black; 
+    color: white;
+    font-family: "Playfair Display SC", serif; 
+}
+
+.header 
+{
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top: 4px;
+    width: 1290px;
+    background-color: transparent;
+    z-index: 1000;
+    padding: 10px;  
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    100% { opacity: 1; }
+}
+
+.Por
+{
+   position: relative;
+   margin-right: 410px ; 
+   color: white;
+   font-size: 17px;
+   margin-top: 5px;
+   font-weight: 100;
+}
+
+#list 
+{
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+    gap: 0px; 
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+    margin-right: 70px;
+
+}
+
+#list a {
+    color: white;
+    text-decoration: none;
+    height: 30px;
+    padding: 20px;
+    border-radius: 100px;
+    transition: color 0.3s ease;
+}
+
+#list a:hover
+{
+    color: #FFAD60;
+   
+}
+.nametag {
+    margin-left: 50px;
+    padding-top: 50px; 
+}
+
+#h1 {
+    font-size:55px;
+    font-weight: 100;
+}
+
+#p {
+    margin-bottom: 20px;
+}
+
+.software {
+    margin-left: 25px;
+    margin-top: 30px; 
+    border: 5px solid white;
+    border-radius: 70px;
+    width: 350px;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.image {
+    position: relative;
+    height: 450px;
+    width: 350px;
+    top: 110px;
+    left: 420px;
+    margin-top: -400px;
+    background-color: transparent; 
+    box-sizing: border-box; 
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: black;
+    position: relative;
+    margin-top: -250px;
+    margin-right: 70px;
+    gap: 40px;
+  
+}
+
+.button {   
+    background-color: white;
+    font-size: 15px;
+    height: 60px;
+    border-radius: 40px ;
+    font-family: "Playfair Display SC", serif;
+    width: 230px;
+    border: 0;
+    transition: background-color 0.3s ease;
+
+}
+.button:hover
+{
+    background-color: #FFAD60;
+    box-shadow: 0 0 20px #FFAD60;
+    
+}
+
+.contact {
+    position: relative;
+    margin-right: 170px;
+
+}
+
+.work a {
+    color: white;
+    float: right;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.work a:hover
+{
+    color: #FFAD60;
+}
+
+.fa-solid.fa-arrow-right.fa-2x 
+{
+    color: white;
+    float: right;
+    margin-left: 250px;
+    margin-top: -1px;
+    padding-right: 15px;
+}
+
+/*educatiom*/
+.main_2 
+{
+    min-height: 100vh;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display SC", serif;
+}
+
+.container_2
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: start; 
+}
+
+.amc, .National, .evershine 
+{
+    text-align: center; 
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    
+}
+@keyframes fadeIn
+    {
+       100%{opacity: 1}
+    } 
+#img 
+{
+    height: 250px;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+#img:hover
+{
+    transform: scale(1.05);
+}
+
+.amc_text, .national_text, .evershine_text
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.evershine
+{
+    margin-top: 10px;
+}
+ 
+.amc, .National
+{
+    margin-top: 30px;
+}
+
+/*Projects*/
+.main_3 {
+    min-height: 100vh;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display SC", serif;
+}
+
+.container_3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px; 
+    justify-items: center;
+    align-items: start; 
+}
+
+.ckd, .hrms, .cms, .shopping {
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    position: relative;
+    border: 3px solid white; 
+    overflow: hidden;
+}
+
+.image_ckd, .image_cms, .image_hrms, .image_shopping {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+.ckd:hover .image_ckd
+{
+    transform: scale(1.1); 
+}
+.cms:hover .image_cms
+{
+    transform: scale(1.1); 
+}
+.hrms:hover .image_hrms
+{
+    transform: scale(1.1); 
+}
+.shopping:hover .image_shopping 
+{
+    transform: scale(1.1); 
+}
+
+.details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 10px;
+    transform: translateY(100%); 
+    transition: transform 0.3s ease;
+}
+
+.ckd:hover .details
+{
+    transform: translateY(0); 
+}
+.cms:hover .details
+{
+    transform: translateY(0); 
+}
+.hrms:hover .details
+{
+    transform: translateY(0); 
+}
+.shopping:hover .details {
+    transform: translateY(0); 
+}
+
+/*Experience*/
+.main_4
+ {
+    min-height: 100vh;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display SC", serif;
+}
+
+.comp_img
+{
+    height: 210px;
+    width: 210px;
+    border: 2px solid white;
+    float: left;
+    margin-top: -15px;
+    padding: 10px;
+}
+
+.text_comp
+{
+    margin-left: 250px;
+    margin-top: 40px;
+    height: 50px
+}    
+
+.full
+{
+position: relative;
+float: right;
+}
+
+#full_img
+{
+    height: 210px;
+    width:  210px;
+    border: 2px solid white;
+    margin-top: 170px;
+    margin-right: 50px;
+
+}
+.text_full
+{
+    position: relative;
+    float: right;
+    margin-top: 190px;
+}
+ 
+/*SKills*/
+
+.main_5
+{
+    min-height: 100vh;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display SC", serif;
+}
+
+
+.html_img ,.css_img , .javascript_img
+{
+   box-shadow: 0 0 15px white;
+    height: 170px;
+    width: 170px;
+    transition: transform 0.3s ease;
+    margin-left: 60px;
+    margin-top: -5px;
+}
+
+.html:hover .html_img 
+{
+    transform: scale(1.1);
+}    
+
+.css:hover .css_img 
+{
+    transform: scale(1.1); 
+}  
+
+.javascript:hover .javascript_img 
+{
+    transform: scale(1.1); 
+}  
+
+.python:hover .python_img 
+{
+    transform: scale(1.1); 
+}  
+
+.react:hover .react_img 
+{
+    transform: scale(1.1); 
+}  
+
+.skills
+{
+   display: grid;
+   grid-template-columns: repeat(3 , 2fr);
+   grid-column-gap: 10px;
+   margin-top: 20px;
+}
+
+.python_img , .react_img
+{
+    box-shadow: 0 0 15px white;
+    height: 170px;
+    width: 170px;
+    transition: transform 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+}
+
+.text_skills_html
+{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.text_skills_css
+{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.text_skills_javascript
+{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.text_skills_python 
+{
+     margin-top: 10px;
+     margin-left: 300px;
+}
+
+.text_skills_react
+{
+    margin-top: 8px;
+    margin-left: 320px;
+}
+
+/*Designing*/
+.main_6
+{
+    min-height: 100vh;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display SC", serif;
+}
+
+.thumbnail_img , .logos_img
+{
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+    box-shadow: 0 0 20px rgb(123, 123, 234);
+}
+ 
+.designing
+{
+    display: inline-flex;
+    gap: 40px;
+    margin-left:120px;
+    margin-top: 50px;
+    
+}
+
+.text_logos
+{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.text_thumnails
+{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.fiver_img , .contra_img , .freelancer_img 
+{
+   height: 120px;
+   width: 120px;
+   
+}
+
+.website{
+    margin-top: -30px;
+}
+.text_website{
+    width: 400px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+/*contact*/
+.main_7
+{
+    min-height: 100vh;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display SC", serif;
+}
+
+.diwa_img
+{
+    height: 420px;
+    width: 300px;
+    float: right;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.text_contact
+{
+    font-size: 40px;
+    font-weight: 100;
+    width: 80px;
+    margin-top: 40px;
+}
